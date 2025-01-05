@@ -1,46 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f4f4f4;
-  }
-  
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
- /* Genel Stil Ayarları */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
 
-  .gallery-item {
-    position: relative;
-    overflow: hidden;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;  /* El işareti göster */
-  }
-  
-  .gallery-item:hover {
-    transform: scale(1.05);  /* Hover'da küçük bir büyütme efekti */
-  }
-  
-  
-  .gallery-description {
-    padding: 20px;
-    background-color: #fff;
-    font-size: 16px;
-    color: #333;
-  }
-  
-  .gallery-description:hover {
-    background-color: #f0f0f0;
-    cursor: pointer;
-  }
-  
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* Genel Stil Ayarları */
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer; /* El işareti göster */
+}
+
+.gallery-item:hover {
+  transform: scale(1.05); /* Hover'da küçük bir büyütme efekti */
+}
+
+.gallery-description {
+  padding: 20px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #333;
+}
+
+.gallery-description:hover {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
